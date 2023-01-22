@@ -1,0 +1,77 @@
+.auth-form {
+    padding: 20px;
+    border: 1px solid #D2D2D2;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+.auth-form p {
+    font-family: 'Rowdies';
+    font-size: 24px;
+    margin: 30px 0;
+}
+
+.auth-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.auth-logo h1 {
+    margin: 0 0 0 15px;
+}
+
+.auth-logo > .fa-bars {
+    color: #FFFFFF;
+    background-color: #FF4F5A;
+    padding: 8px 5px 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.auth-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-form form input {
+    width: 431px;
+    border: 1px solid #D2D2D2;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.auth-form form input[type=submit] {
+    width: 451px;
+}
+
+.auth-new-account {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid #D2D2D2;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+.auth-new-account div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.auth-new-account p{
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #000000;
+    margin: 0;
+}
+
+.auth-new-account a{
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #FF4F5A;
+    margin-left: 10px;
+}

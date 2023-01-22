@@ -1,0 +1,10 @@
+.step > .container > .section-text {
+    margin: 100px 0 80px; 
+}
+
+.tile-wrapper {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

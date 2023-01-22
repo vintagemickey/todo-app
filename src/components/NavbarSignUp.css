@@ -1,0 +1,92 @@
+.todo-menu-logo > a > .fa-bars {
+    color: #FF4F5A;
+    background-color: #FFFFFF;
+    padding: 8px 5px 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.todo-menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.todo-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-menu-name {
+    color: #FFFFFF;
+    margin: 0 0 0 10px;
+}
+
+.todo-menu-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.todo-menu-username {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.todo-menu-userpic {
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;
+    object-fit: cover;
+}
+
+.todo-list-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.todo-menu-user-menu {
+    position: absolute;
+    list-style: none;
+    top: 75px;
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 16px;
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+.todo-menu-user-menu a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.todo-menu-user-menu li {
+    padding: 10px 50px 10px 20px;
+}
+
+.todo-menu-user-menu li span {
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.todo-menu-user-menu li:first-child {
+    padding-top: 20px;
+}
+
+.todo-menu-user-menu li:last-child {
+    margin: 0;
+    border-top: 1px solid #D7D7D7;
+}
+
+.todo-menu-user-menu li:last-child a {
+    color: #FF4F5A;
+}

@@ -1,0 +1,70 @@
+.footer-wrapper {
+    border-top: 1px solid #FF4F5A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.footer-motto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-motto p {
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.footer-logo > .fa-bars {
+    color: #FFFFFF;
+    background-color: #FF4F5A;
+    padding: 8px 5px 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.footer-companyname {
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.footer-companyaddress {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color:#737373
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-features {
+    margin-right: 50px;
+}
+
+.footer-features, .footer-pricing {
+    list-style: none;
+}
+
+.footer-features li:nth-child(1), .footer-pricing li:nth-child(1) {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color:#FF4F5A;
+    margin-bottom: 20px;
+}
+
+.footer-features li, .footer-pricing li{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color:#737373;
+    margin: 5px 0;
+}

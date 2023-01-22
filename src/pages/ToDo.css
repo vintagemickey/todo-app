@@ -1,0 +1,17 @@
+.navbar-container {
+    background-color: #FF4F5A;
+}
+
+.todo-menu-icon {
+    z-index: 999;
+    margin: 10px;
+}
+.todo-menu-icon > .fa-bars {
+    color: #FF4F5A;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.todo-menu-icon > .fa-xmark {
+    color: #FF4F5A;
+    font-size: 35px;
+}

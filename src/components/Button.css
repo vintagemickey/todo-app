@@ -1,0 +1,29 @@
+button {
+    cursor: pointer;
+}
+
+.btn--primary {
+    font-family: 'Rosario', sans-serif;
+    color: #FFFFFF;
+    padding: 7px 29px;
+    background-color: #FF4F5A;
+    border-radius: 5px;
+    border: none;
+}
+.btn--outline {
+    font-family: 'Rosario', sans-serif;
+    color: #FF4F5A;
+    padding: 7px 29px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #FF4F5A;
+}
+
+.btn--medium {
+    font-size: 24px;
+    border: 1px solid #FF4F5A;
+}
+
+.btn--large {
+    font-size: 36px;
+}

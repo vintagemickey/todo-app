@@ -1,0 +1,16 @@
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tile-img {
+    width: 70%;
+}

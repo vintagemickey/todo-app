@@ -1,0 +1,102 @@
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    width: 85%;
+}
+
+.todo-list-items {
+    width: 100%;
+}
+
+.todo-list-date {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    color: #FF4F5A;
+    margin-bottom: 20px;
+}
+
+.todo-list-completed {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #414141;
+    margin-bottom: 10px;
+}
+
+.todo-list-add-item {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #FF4F5A;
+    cursor: pointer;
+}
+
+.todo-list-add-item span {
+    margin-left: 10px;
+}
+
+/*-----------Modal window-----------*/
+.ReactModal__Overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+
+.add-task-window {
+    padding: 20px;
+    border: 1px solid #D2D2D2;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+}
+
+.add-task-window h2 {
+    margin: 0;
+    color: #FF4F5A !important;
+}
+
+.add-task-window-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-task-window-header > .fa-xmark {
+    color: #FF4F5A;
+    font-size: 35px;
+    cursor: pointer;
+}
+.add-task-window form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.add-task-window form input {
+    width: 431px;
+    border: 1px solid #D2D2D2;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.add-task-window form input[type=submit] {
+    width: 451px;
+    background-color: #FF4F5A;
+    color: #FFFFFF;
+    border: none;
+}
